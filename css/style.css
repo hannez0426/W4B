@@ -15,8 +15,7 @@ body {
 }
 
 img {
-    max-width: 100%;
-    display: block;
+    width: 100%;
 }
 
 a {
@@ -26,6 +25,8 @@ a {
 p {
     line-height: 1.6;
 }
+
+
 
 
 /*HEADER*/
@@ -507,7 +508,7 @@ p {
     border-radius: 30px;
 
     color: #9693e6;
-    background-color: #ffffff;
+    background-color: #B8DDFF;
 }
 
 .pricing small {
@@ -532,6 +533,12 @@ p {
 
 .footer p {
     font-size: 11px;
+}
+
+.footer img {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
 }
 
 
@@ -612,12 +619,9 @@ p {
 
 /*DESKTOP*/
 
-/* ========================================
-   DESKTOP
-   Client desktop design
-======================================== */
+/* Client Destop Design */
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
 
     /* HEADER */
 
@@ -1151,26 +1155,30 @@ p {
     }
 
 
-    /*FOOTER*/
+    /* FOOTER */
 
-    .footer {
+.footer {
     width: 100%;
     padding: 30px 20px;
-    text-align: center;
-    background-color: #222;
+    background-color: #333;
     color: white;
-    }
+    text-align: center;
+}
 
-    .footer p {
-    margin-bottom: 15px;
-    }
+.footer p {
+    margin: 0 0 15px;
+    font-size: 12px;
+}
 
-    .footer__social img {
+.footer a img {
     width: 30px;
     height: 30px;
-    }
+}
 
-    .hero {
+
+/* HERO COLOR UPDATE */
+
+.pricing__button {
     background-color: #B8DDFF;
-    }   
+}
 }
