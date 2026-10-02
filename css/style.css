@@ -26,7 +26,9 @@ p {
     line-height: 1.6;
 }
 
-
+.pricing {
+    background-color: #B8DDFF;
+}
 
 
 /*HEADER*/
@@ -68,7 +70,7 @@ p {
     grid-template-columns: 1fr;
     gap: 6px;
 
-    background-color: #ffffff;
+    background-color: #333333;
 }
 
 .services__demo {
@@ -77,7 +79,7 @@ p {
 
     border-radius: 7px;
 
-    background-color: #b8ddff;
+    background-color: #B8DDFF;
 }
 
 .services__demo h2 {
@@ -122,8 +124,10 @@ p {
 
 
 .services__phone {
-    width: 150px;
-    margin: 25px auto 0;
+    display: block;
+    width: 200px;
+    max-width: 50%;
+    margin: 30px auto 0;
 }
 
 
@@ -508,7 +512,7 @@ p {
     border-radius: 30px;
 
     color: #9693e6;
-    background-color: #B8DDFF;
+    background-color: #ffffff;
 }
 
 .pricing small {
@@ -652,7 +656,7 @@ p {
         grid-template-columns: repeat(3, 1fr);
         gap: 10px;
 
-        background-color: #ffffff;
+        background-color: #333333;
     }
 
     .services__demo {
@@ -1178,7 +1182,7 @@ p {
 
 /* HERO COLOR UPDATE */
 
-.pricing__button {
+.pricing {
     background-color: #B8DDFF;
 }
 }
