@@ -1154,27 +1154,23 @@ p {
     /*FOOTER*/
 
     .footer {
-        min-height: 100px;
-
-        padding: 30px 20px;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        background-color: #333333;
+    width: 100%;
+    padding: 30px 20px;
+    text-align: center;
+    background-color: #222;
+    color: white;
     }
 
     .footer p {
-        max-width: 400px;
-
-        margin: 0 auto;
-
-        text-align: center;
-
-        font-size: 9px;
-        line-height: 1.5;
-
-        color: #ffffff;
+    margin-bottom: 15px;
     }
+
+    .footer__social img {
+    width: 30px;
+    height: 30px;
+    }
+
+    .hero {
+    background-color: #B8DDFF;
+    }   
 }
